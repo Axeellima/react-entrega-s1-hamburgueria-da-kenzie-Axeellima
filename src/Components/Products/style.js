@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const Item = styled.li`
-  width: 250px;
+  width: 200px;
   border: 2px solid #e0e0e0;
-  height: 50vh;
+  height: 280px;
   margin-right: 15px;
   border-radius: 3px;
   align-items: center;
-
   .item-image {
     display: flex;
     justify-content: center;
@@ -15,8 +14,8 @@ export const Item = styled.li`
     background-color: #e0e0e0;
   }
   div img {
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 130px;
   }
   .item-description {
     display: block;
@@ -27,6 +26,7 @@ export const Item = styled.li`
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-size: 18px;
   }
   .item-description p {
     font-weight: bold;
@@ -47,8 +47,12 @@ export const Item = styled.li`
   @media (min-width: 900px) {
     width: 18vw;
     margin-bottom: 10px;
-  }
-  .item-description h1 {
-    max-width: 20ch;
+
+    .item-description h1 {
+      max-width: 20ch;
+    }
+    .add-kart {
+      font-size: 14px;
+    }
   }
 `;

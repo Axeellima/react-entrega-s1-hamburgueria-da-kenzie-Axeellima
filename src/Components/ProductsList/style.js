@@ -7,6 +7,7 @@ export const Lista = styled.ul`
   padding: 20px 20px 20px 40px;
 
   @media (min-width: 900px) {
+    padding-left: 8%;
     display: flex;
     max-width: 62%;
     flex-wrap: wrap;

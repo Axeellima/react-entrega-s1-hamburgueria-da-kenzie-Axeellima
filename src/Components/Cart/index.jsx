@@ -9,10 +9,10 @@ function Cart({ currentSale, setCurrentSale }) {
     <CartDiv>
       <h1 className="title-kart">Carrinho de Compras</h1>
       {currentSale.length < 1 ? (
-        <div>
+        <>
           <h2>Sua sacola está vazia</h2>
           <p>Adicione itens</p>
-        </div>
+        </>
       ) : (
         <>
           <ul>

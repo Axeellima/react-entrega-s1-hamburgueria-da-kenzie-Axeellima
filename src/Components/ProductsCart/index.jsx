@@ -4,6 +4,7 @@ function ProductsCart({ product, currentSale, setCurrentSale, key }) {
       <img src={product.img} alt={product.name} />
       <div className="remove-kart">
         <h1>{product.name}</h1>
+        <p className="remove">Remover</p>
       </div>
       <div className="description-kart">
         <h3>{product.category}</h3>

@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const CartDiv = styled.div`
   width: 90vw;
   background-color: #e0e0e0;
-  max-height: 40vh;
+  max-height: 250px;
+  text-align: center;
   .title-kart {
     margin: 0;
     border-top-left-radius: 5px;
@@ -11,21 +12,6 @@ export const CartDiv = styled.div`
     background-color: #27ae60;
     color: white;
     padding: 10px 5px;
-  }
-  div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-  }
-  div h2 {
-    width: 70%;
-
-    color: #828282;
-  }
-  div p {
-    width: 70%;
-    color: #828282;
   }
   ul {
     width: 100%;
@@ -45,10 +31,21 @@ export const CartDiv = styled.div`
     height: 100px;
   }
   li .remove-kart {
+    margin-top: 10px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     height: 30px;
     width: 63%;
+  }
+  li .remove-kart h1 {
+    height: 100%;
+  }
+  li .remove-kart .remove:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
   li h1 {
     font-size: 14px;
@@ -67,9 +64,11 @@ export const CartDiv = styled.div`
   }
   li h3 {
     font-size: 12px;
+    margin-bottom: 10px;
   }
   li p {
     width: 60px;
+    margin-bottom: 10px;
   }
   .total-price {
     border-top: 2px solid black;
@@ -97,6 +96,7 @@ export const CartDiv = styled.div`
     margin-top: 33px;
     height: 180px;
     max-height: 400px;
+    text-align: center;
     border-radius: 5px;
 
     ul {
