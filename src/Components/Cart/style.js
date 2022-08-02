@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CartDiv = styled.div`
   width: 90vw;
   background-color: #e0e0e0;
-  max-height: 250px;
+  height: 146px;
   text-align: center;
   .title-kart {
     margin: 0;
@@ -21,22 +21,24 @@ export const CartDiv = styled.div`
     margin: 0;
     overflow-y: auto;
   }
-  li {
+  ul li {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   li img {
     width: 100px;
     height: 100px;
   }
   li .remove-kart {
+    width: 60%;
     margin-top: 10px;
     text-align: center;
     display: flex;
     justify-content: space-between;
     height: 30px;
-    width: 63%;
+    flex-wrap: wrap;
   }
   li .remove-kart h1 {
     height: 100%;
@@ -55,12 +57,10 @@ export const CartDiv = styled.div`
     white-space: nowrap;
   }
   li .description-kart {
+    width: 100%;
+    height: 30px;
     display: flex;
     justify-content: space-between;
-    position: relative;
-    bottom: 40px;
-    left: 100px;
-    width: 63%;
   }
   li h3 {
     font-size: 12px;
@@ -91,11 +91,12 @@ export const CartDiv = styled.div`
     border-radius: 5px;
     font-size: 14px;
   }
+  @media (min-width: 400px) {
+    width: 70vw;
+  }
   @media (min-width: 900px) {
     width: 290px;
     margin-top: 33px;
-    height: 180px;
-    max-height: 400px;
     text-align: center;
     border-radius: 5px;
 

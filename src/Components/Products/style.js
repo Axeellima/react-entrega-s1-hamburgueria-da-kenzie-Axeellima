@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Item = styled.li`
-  width: 200px;
+  width: 250px;
   border: 2px solid #e0e0e0;
   height: 280px;
   margin-right: 15px;

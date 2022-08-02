@@ -5,15 +5,16 @@ function ProductsCart({ product, currentSale, setCurrentSale, key }) {
       <div className="remove-kart">
         <h1>{product.name}</h1>
         <p className="remove">Remover</p>
-      </div>
-      <div className="description-kart">
-        <h3>{product.category}</h3>
-        <p>
-          {product.price.toLocaleString("pt-br", {
-            style: "currency",
-            currency: "BRL",
-          })}
-        </p>
+
+        <div className="description-kart">
+          <h3>{product.category}</h3>
+          <p>
+            {product.price.toLocaleString("pt-br", {
+              style: "currency",
+              currency: "BRL",
+            })}
+          </p>
+        </div>
       </div>
     </li>
   );
