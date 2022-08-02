@@ -93,6 +93,14 @@ export const CartDiv = styled.div`
   }
   @media (min-width: 400px) {
     width: 70vw;
+    li img {
+      margin-right: 4%;
+    }
+  }
+  @media (min-width: 700px) {
+    li img {
+      margin-right: 7%;
+    }
   }
   @media (min-width: 900px) {
     width: 290px;
@@ -102,6 +110,9 @@ export const CartDiv = styled.div`
 
     ul {
       max-height: 60vh;
+    }
+    li img {
+      margin-right: 0;
     }
   }
 `;
