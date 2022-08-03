@@ -11,5 +11,6 @@ export const Lista = styled.ul`
     display: flex;
     max-width: 62%;
     flex-wrap: wrap;
+    min-width: 62%;
   }
 `;

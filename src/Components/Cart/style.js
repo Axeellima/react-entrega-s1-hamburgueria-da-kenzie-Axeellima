@@ -5,6 +5,7 @@ export const CartDiv = styled.div`
   background-color: #e0e0e0;
   height: 146px;
   text-align: center;
+  position: relative;
   .title-kart {
     margin: 0;
     border-top-left-radius: 5px;
