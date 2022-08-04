@@ -15,7 +15,7 @@ export const CartDiv = styled.div`
     padding: 10px 5px;
   }
   ul {
-    width: 100%;
+    max-width: 100%;
     max-height: 25vh;
     background-color: #e0e0e0;
     padding: 0;
@@ -69,6 +69,7 @@ export const CartDiv = styled.div`
   }
   li p {
     width: 60px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   .total-price {

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Item = styled.li`
   width: 250px;
   border: 2px solid #e0e0e0;
-  height: 280px;
   margin-right: 15px;
   border-radius: 3px;
   align-items: center;
@@ -39,6 +38,7 @@ export const Item = styled.li`
     background-color: #27ae60;
     border-radius: 3px;
     font-size: 12px;
+    margin-bottom: 5px;
   }
   .add-kart:hover {
     cursor: pointer;
