@@ -74,9 +74,10 @@ export const CartDiv = styled.div`
   }
   .total-price {
     border-top: 2px solid black;
-    margin: 0px 8px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+    background-color: white;
   }
   .total-price p {
     color: black;
