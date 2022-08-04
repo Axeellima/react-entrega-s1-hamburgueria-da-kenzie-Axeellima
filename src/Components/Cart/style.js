@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CartDiv = styled.div`
   width: 90vw;
   background-color: #e0e0e0;
-  height: 146px;
+  max-height: 25vh;
   text-align: center;
   position: relative;
   .title-kart {
